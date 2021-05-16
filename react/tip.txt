@@ -1,0 +1,32 @@
+1. 데이터 바인딩(서버 등에서 받은 data를 html으로 표현, 렌더링)
+-> { }, 중괄호와 변수, 함수() 이용
+
+(1-2) 이미지 데이터 바인딩
+import X from 'file path';
+<img src = { X }/>
+
+(1-3) 스타일
+<p style ={{color: 'color'}}> or css className or let/var에 스타일 저장
+
+
+2. 변수 저장 방법: let var, state
+state 사용법
+import {useState} from 'react'; -> react 내장함수 이용
+let [org, update] = useState('value'); -> ES6 destructuring, useState 내 array or value
+				-> can use react as webapp, html rerendering automatically
+
+When we using "useState()" we need to check how frequently they(variable) use(not must but prefer)
+
+3. JS
+onClick={function} ->develop function
+onClick={()=>{}}	-> ES6, arrow
+var X = [...var] 		-> spread operator, used in deepcopy (immutable data)
+
+4. Modal, design
+
+5. Component -> can use long HTML as a word
+function App 밖에 function 생성 -> Component
+ex) function X(){ return ( HTML ) } -> warning) using fragment <></> or <div></div> to cover whole HTML code
+child component에서 parent component의 변수, state 사용시 props이용
+
+

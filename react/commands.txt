@@ -1,0 +1,12 @@
+1. npx create-react-app [project_name]
+-> npx는 라이브러리 설치를 도와주는 명령어, nodejs 설치 필
+-> create-react-app(nodejs에서 제공 라이브러리)은 리액트를 위한 세팅, boilerplate를 쉽게 만들게 돕는 라이브러리
+
+
+2. 프로젝트 파일 위치에서 npm start
+-> react 파일 실행
+-> npm(nodejs에서 제공)
+
+App.js는 mainpage에 들어갈 html 코드 (html 대체, JSX)
+public의 index.html이 mainpage 
+index.js는 App.js와 index.html의 교량
